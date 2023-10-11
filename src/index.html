@@ -7,7 +7,16 @@
     <script src="./index.js" defer></script>
     <title>GraphQL Countries</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">Hello world</h1>
+<body class="box-border p-0 m-0">
+    <h1 class="text-3xl font-bold text-center mt-5">GraphQL Countries Fetching</h1>
+    
+    <div class="flex flex-col items-center justify-center">
+        <select id="continents-select" class="w-64 my-3 h-10 text-lg px-4 py-2 leading-6 bg-white text-gray-700 border border-gray-300 rounded-md shadow transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <option value="nil">Select continent</option>
+        </select>
+    </div>
+
+    <div id="info"></div>
+
 </body>
 </html>
